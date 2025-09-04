@@ -1,0 +1,1 @@
+{"version":3,"file":"circle.d.ts","sourceRoot":"","sources":["circle.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,YAAY,CAAC;AAExC,qBAAa,MAAO,YAAW,KAAK;IAChC,OAAO,CAAC,MAAM,CAAS;gBAEX,MAAM,EAAE,MAAM;IAI1B,OAAO,IAAI,MAAM;CAGpB"}

@@ -1,19 +1,27 @@
 package edu.cmu.cs.cs214.lab02;
 
-import edu.cmu.cs.cs214.lab02.shapes.*;
+import edu.cmu.cs.cs214.lab02.shapes.Shape;
 
+/**
+ * A renderer that draws shapes and displays their area.
+ */
 public class Renderer {
-    public Rectangle rectangle;
-    
-    Renderer(Rectangle rectangle) {
-        this.rectangle = rectangle;
+    private final Shape shape;
+
+    /**
+     * Constructs a Renderer with the specified shape.
+     *
+     * @param shape the shape to be rendered
+     */
+    public Renderer(Shape shape) {
+        this.shape = shape;
     }
 
-    void draw() {
-        double area = rectangle.getArea();
-
-        // assume implementation
-
-        System.out.println("Shape printed\n" + "Its area is " + area);
+    /**
+     * Draws the shape and displays its area.
+     */
+    public void draw() {
+        System.out.println("Shape drawn");
+        System.out.println("Its area is " + shape.getArea());
     }
 }

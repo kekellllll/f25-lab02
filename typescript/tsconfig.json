@@ -6,7 +6,8 @@
       "strict": true,
       "esModuleInterop": true,
       "moduleResolution": "node",
-      "outDir": "dist",
-      "lib": ["ES6","dom"]
+      "outDir": "../dist", // 输出到项目根目录的 dist 文件夹
+      "lib": ["ES6", "dom"],
+      "rootDir": "./src" // 指定源文件目录为 typescript/src
     }
   }
