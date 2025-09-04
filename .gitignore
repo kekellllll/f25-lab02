@@ -1,0 +1,15 @@
+# Generated files to ignore
+# TypeScript compilation outputs
+typescript/src/**/*.js
+typescript/src/**/*.js.map
+typescript/src/**/*.d.ts
+typescript/src/**/*.d.ts.map
+
+# Java compilation outputs
+java/target/
+
+# Distribution files
+dist/
+
+# Dependencies
+node_modules/
